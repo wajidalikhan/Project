@@ -30,7 +30,23 @@ to create a pull request.
 
   To create a branch 
   -- git checkout -b new_branch
-             
+
+  To switech to newly created branch
+  -- git checkout new_branch
+
+  To list the number of branches 
+  -- git branch -r
+
+  To push the changes in a specific branch
+  -- git push --set-upstream origin new_branch  OR 
+  -- git push origin new_branch
+
+  To Delete a branch
+  -- git branch -d new_branch
+
+  To mergre two branches
+  -- git merge origin/new_branch
+
   To view log 
   -- git log
   
@@ -41,10 +57,11 @@ to create a pull request.
   -- git status  
   
   To creat a pull request
-  -- mkdir Forking
-  -- cd Forking
+  -- mkdir Testing
+  -- cd Testing
+  -- git init
   
-  Now search any directory on git hub e.g., wajidalikhan/Project and fork this directory 
+  Now search git e.g., wajidalikhan/Project and fork this directory 
   then clone this forked directory form your git 
 
   -- git clone git@github.com:wajidalikhan/Project.git
