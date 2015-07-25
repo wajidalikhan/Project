@@ -1,6 +1,6 @@
 The project is meant for testing the Git repositories 
 and some of the basic commands are listed. Please feel free to 
-add more commands with some short explanation and don't hesitate 
+add more commands with some short explanation and then don't forget 
 to create a pull request. 
 ============================
   
@@ -63,7 +63,6 @@ to create a pull request.
   
   Now search git e.g., wajidalikhan/Project and fork this directory 
   then clone this forked directory form your git 
-
   -- git clone git@github.com:wajidalikhan/Project.git
   -- git remote -v
   
@@ -76,7 +75,6 @@ to create a pull request.
   -- git remote -v 
   
   You should now have something like this
-
   -- origin git@github.com:YOUR_USERNAME/Project.git (fetch)
   -- origin git@github.com:YOUR_USERNAME/Project.git (push)
   -- upstream git@github.com:wajidalikhan/Project.git (fetch)
