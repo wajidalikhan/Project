@@ -2,8 +2,8 @@ The project is meant for testing the Git repositories
 and some of the basic commands are listed. Please feel free to 
 add more commands with some short explanation and don't hesitate 
 to create a pull request. 
-
 ============================
+  
   To initialize a local working copy 
   -- git init
   
@@ -27,6 +27,9 @@ to create a pull request.
         
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
+
+  To create a branch 
+  -- git checkout -b new_branch
              
   To view log 
   -- git log
