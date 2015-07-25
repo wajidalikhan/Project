@@ -38,4 +38,38 @@ to create a pull request.
   -- git reset HEAD <file>           
   
   To check the status of your working copy
-  -- git status             
+  -- git status  
+  
+  To creat a pull request
+  -- mkdir Forking
+  -- cd Forking
+  
+  Now search any directory on git hub e.g., wajidalikhan/Project and fork this directory 
+  then clone this forked directory form your git 
+
+  -- git clone git@github.com:wajidalikhan/Project.git
+  -- git remote -v
+  
+  You should have some thing like 
+  -- origin git@github.com:YOUR_USERNAME/Project.git (fetch)
+  -- origin git@github.com:YOUR_USERNAME/Project.git (push)
+  
+  Now add new remote from where we forked the repo 
+  -- git remote add upstream git@github.com:wajidalikhan/Project.git
+  -- git remote -v 
+  
+  You should now have something like this
+
+  -- origin git@github.com:YOUR_USERNAME/Project.git (fetch)
+  -- origin git@github.com:YOUR_USERNAME/Project.git (push)
+  -- upstream git@github.com:wajidalikhan/Project.git (fetch)
+  -- upstream git@github.com:wajidalikhan/Project.git (push)
+  
+  Now copy/create or wirte any file here like
+  -- touch anytextfile.txt
+  -- git add anytextfile.txt 
+  -- git commit -m "Testing"
+  -- git push origin
+
+  You can just creat a pull request from the git hub page
+             
