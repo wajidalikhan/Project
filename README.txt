@@ -25,7 +25,7 @@ to create a pull request.
   Always update your sync_exe directory to get the last code
   -- git pull
         
-  In case you did something wrong you can replace local changes using the command e.g.,
+  In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
              
   To view log 
