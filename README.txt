@@ -22,7 +22,7 @@ to create a pull request.
   To push your changes to the selected remote server
   -- git push -u origin master
   
-  Always update your sync_exe directory to get the last code
+  Always update your working directory to get the last code
   -- git pull
         
   In case,something goes wrong you can replace local changes using the e.g.,
@@ -82,7 +82,7 @@ to create a pull request.
   -- upstream git@github.com:wajidalikhan/Project.git (fetch)
   -- upstream git@github.com:wajidalikhan/Project.git (push)
   
-  Now copy/create or wirte any file here like
+  Now copy/create or write any file here like
   -- touch anytextfile.txt
   -- git add anytextfile.txt 
   -- git commit -m "Testing"
