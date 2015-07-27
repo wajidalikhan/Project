@@ -87,4 +87,8 @@ to create a pull request.
   -- git push origin
 
   You can just creat a pull request from the git hub page
-             
+  
+  ==========================
+  
+  Usefull Weblink for Git usage
+  http://rogerdudler.github.io/git-guide/ 
