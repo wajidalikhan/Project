@@ -1,6 +1,6 @@
-The project is meant for testing the Git repositories 
-and some of the basic commands are listed. Please feel free to 
-add more commands with some short explanation and then don't forget 
+The project is meant for testing the Git repositories and some 
+of the basic commands are listed. Please feel free to add more 
+commands with some short explanation and then pleasedon't forget 
 to create a pull request. 
 ============================
   
@@ -87,8 +87,8 @@ to create a pull request.
   -- git push origin
 
   You can just creat a pull request from the git hub page
-  
   ==========================
+ 
+  Usefull Weblinks for Git usage
   
-  Usefull Weblink for Git usage
   http://rogerdudler.github.io/git-guide/ 
