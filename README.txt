@@ -3,6 +3,12 @@ of the basic commands are listed. Please feel free to add more
 commands with some short explanation and then pleasedon't forget 
 to create a pull request. 
 ============================
+
+  Make sure you have properly generate SSK keys, if not please follow the link
+  https://help.github.com/articles/generating-ssh-keys/
+
+  List of various topics from Github
+  https://help.github.com/index.html
   
   To initialize a local working copy 
   -- git init
