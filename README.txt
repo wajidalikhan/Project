@@ -109,3 +109,7 @@ to create a pull request.
   Usefull Weblinks for Git usage
   
   http://rogerdudler.github.io/git-guide/ 
+
+  https://github.com/github/hub
+
+  http://blog.trobrock.com/2011/11/17/git-hub-and-pull-requests-equals-awesome-daily-workflow.html
