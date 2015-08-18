@@ -30,7 +30,18 @@ to create a pull request.
   
   Always update your working directory to get the last code
   -- git pull
-        
+
+  To undo the changes in Index before committing
+  -- git reset HEAD
+  
+  To rename a folder 
+  -- mv oldfolder newfolder
+  -- git add newfolder 
+  -- git rm oldfolder
+  
+  Or 
+  -- git mv oldfolder newfolder 
+          
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
 
