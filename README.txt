@@ -41,7 +41,21 @@ to create a pull request.
   
   Or 
   -- git mv oldfolder newfolder 
-          
+
+  To clean the untracked files from git
+  -- git clean -f ( But beware ... there's no going back). Instead use 
+
+  -- git clean -n (to preview the damage you'll do) 
+
+  To remove directories 
+  -- git clean -f -d or git clean -fg
+
+  To remove ignored files 
+  -- git clean -f -X or git clean -fX
+
+  To remove ignored as well as non-ignored files
+  -- git clean -f -x or git clean  -fx
+            
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
 
