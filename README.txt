@@ -48,7 +48,7 @@ to create a pull request.
   -- git clean -n (to preview the damage you'll do) 
 
   To remove directories 
-  -- git clean -f -d or git clean -fg
+  -- git clean -f -d or git clean -fd
 
   To remove ignored files 
   -- git clean -f -X or git clean -fX
@@ -58,7 +58,25 @@ to create a pull request.
 
   To fast-forward if you are behind 
   -- git merge --ff-only origin/master
-            
+ 
+  To detect differences between local repo and remote repo in git? 
+  commit your changes on your own branch, totally unrelated to what's going on in remote repositories.          
+  -- git commit
+  
+  Get the contents of the remote repository,but keep them under origin/branch branches. Your own code is unaffected at this point
+  -- git fetch origin
+
+  Merge origin/master which is the master branch of the remote repository origin(which you fetched just now) with your current branch
+  
+  -- git merge origin/master
+  
+  -- git push origin: push back the commit and the merge to the remote repository
+  
+  To answer your second question:
+
+  -- git fetch origin: update origin/branch branches.
+  -- git diff origin/master: get the difference between your current branch and the branch origin/master.
+
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
 
