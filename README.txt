@@ -55,6 +55,9 @@ to create a pull request.
 
   To remove ignored as well as non-ignored files
   -- git clean -f -x or git clean  -fx
+
+  To fast-forward if you are behind 
+  -- git merge --ff-only origin/master
             
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
