@@ -10,6 +10,9 @@ to create a pull request.
   List of various topics from Github
   https://help.github.com/index.html
   
+  To creat a git repo from command line
+  -- curl -u 'wajidalikhan' https://api.github.com/user/repos -d '{"name":"Hello"}'
+  
   To initialize a local working copy 
   -- git init
   
