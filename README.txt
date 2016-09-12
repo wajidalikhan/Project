@@ -7,11 +7,29 @@ to create a pull request.
   Make sure you have properly generate SSK keys, if not please follow the link
   https://help.github.com/articles/generating-ssh-keys/
 
+  Generate the SSH keys
+  -- ssh-keygen -t rsa -b 4096 -C wajid@cern.ch
+
+  Check if the generated keys are present
+  -- ls -al ~/.ssh   
+ 
+  Start the ssh-agent in the background
+  -- eval "$(ssh-agent -s)"
+
+  Add them to ssh agent
+  -- ssh-add ~/.ssh/id_rsa 
+
+  Testing your SSH connection
+  ssh -T git@github.com
+	
   List of various topics from Github
   https://help.github.com/index.html
   
   To creat a git repo from command line
   -- curl -u 'wajidalikhan' https://api.github.com/user/repos -d '{"name":"Hello"}'
+
+  Check if the git is installed if not, get it done like
+  -- sudo apt-get install git
   
   To initialize a local working copy 
   -- git init
