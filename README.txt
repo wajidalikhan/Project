@@ -1,6 +1,5 @@
   
-  To setup your computing account: Please feel free to add 
-  more to it and please don't forget to creat a pull request.
+  Please feel free to add more to it and please don't forget to creat a pull request.
   git clone git@github.com:wajidalikhan/Project.git
   -------------------------------------------------------
   
@@ -84,13 +83,12 @@
   -- Restart the AFS client: sudo service openafs-client restart.
   -- Login with the alias you chose (make sure you get ticket and token).
   -- Make sure the clocks are synced 
-  -------------------------------------------------------
- 
   
-  Single top Storage:
-  eos ls /store/group/phys_top/SingleTop/ 
+  Useful links:
+  https://gist.github.com/wajidalikhan/dc71972a6b9332cf9871b9f0f859b75f
+  http://akorneev.web.cern.ch/akorneev/howto/openafs.txt
   -------------------------------------------------------
-  
+
   
   The project is meant for testing the Git repositories and some 
   of the basic commands are listed. Please feel free to add more 
