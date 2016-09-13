@@ -1,7 +1,7 @@
   
   To setup your computing account: Please feel free to add 
   more to it and please don't forget to creat a pull request.
-  git clone git@github.com:wajidalikhan/Project.gitgit@github.com:wajidalikhan/Project.git
+  git clone git@github.com:wajidalikhan/Project.git
   -------------------------------------------------------
   
   Check your Kernal version
