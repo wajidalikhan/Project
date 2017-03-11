@@ -75,9 +75,6 @@
   Then restart the ntp service:
   -- sudo service ntp restart
 
-<<<<<<< HEAD
-  Make sure you have properly generated the SSK keys, if not please follow the link
-=======
   Adding the following line in my .bash_aliases file: 
   -- alias afs="kdestroy && kinit -kt /etc/krb5.keytab wajid -l 7d -r 1d ; aklog CERN.CH"
    
@@ -99,8 +96,7 @@
   to create a pull request. 
   -------------------------------------------------------
   
-  Make sure you have properly generate SSK keys, if not please follow the link
->>>>>>> 1a93d7660ad68d17564bcebf64ceb8cbcb749dd6
+  Make sure you have properly generated SSK keys, if not please follow the link
   https://help.github.com/articles/generating-ssh-keys/
 
   Generate the SSH keys
@@ -193,10 +189,6 @@
   -- git merge origin/master
   -- git push origin: push back the commit and the merge to the remote repository
   
-<<<<<<< HEAD
-=======
-  To answer your second question:
->>>>>>> 1a93d7660ad68d17564bcebf64ceb8cbcb749dd6
   -- git fetch origin: update origin/branch branches.
   
   To get the difference between your current branch and the branch origin/master:
@@ -263,13 +255,8 @@
   -- git commit -m "Testing"
   -- git push origin
 
-<<<<<<< HEAD
   Now, you can just creat a pull request from the git hub page
-  ==========================
-=======
-  You can just creat a pull request from the git hub page
   -------------------------------------------------------
->>>>>>> 1a93d7660ad68d17564bcebf64ceb8cbcb749dd6
  
   Usefull Weblinks for Git usage:
   http://rogerdudler.github.io/git-guide/ 
