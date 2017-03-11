@@ -85,7 +85,6 @@
   -- Make sure the clocks are synced 
   
   Useful links:
-  https://gist.github.com/wajidalikhan/dc71972a6b9332cf9871b9f0f859b75f
   http://akorneev.web.cern.ch/akorneev/howto/openafs.txt
   -------------------------------------------------------
 
