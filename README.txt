@@ -4,7 +4,7 @@ commands with some short explanation and then pleasedon't forget
 to create a pull request. 
 ============================
 
-  Make sure you have properly generate SSK keys, if not please follow the link
+  Make sure you have properly generated the SSK keys, if not please follow the link
   https://help.github.com/articles/generating-ssh-keys/
 
   List of various topics from Github
@@ -31,7 +31,7 @@ to create a pull request.
   To push your changes to the selected remote server
   -- git push -u origin master
   
-  Always update your working directory to get the last code
+  Always update your working directory to get the latest code
   -- git pull
 
   To undo the changes in Index before committing
@@ -75,8 +75,6 @@ to create a pull request.
   
   -- git push origin: push back the commit and the merge to the remote repository
   
-  To answer your second question:
-
   -- git fetch origin: update origin/branch branches.
   -- git diff origin/master: get the difference between your current branch and the branch origin/master.
 
@@ -141,7 +139,7 @@ to create a pull request.
   -- git commit -m "Testing"
   -- git push origin
 
-  You can just creat a pull request from the git hub page
+  Now, you can just creat a pull request from the git hub page
   ==========================
  
   Usefull Weblinks for Git usage
