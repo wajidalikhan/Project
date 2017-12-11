@@ -243,8 +243,8 @@
   -- git remote -v 
   
   You should now have something like this
-  -- origin git@github.com:wajidalikhan/Project.git (fetch)
-  -- origin git@github.com:wajidalikhan/Project.git (push)
+  -- origin git@github.com:<yourusername>/Project.git (fetch)
+  -- origin git@github.com:<yourusername>/Project.git (push)
   -- upstream git@github.com:wajidalikhan/Project.git (fetch)
   -- upstream git@github.com:wajidalikhan/Project.git (push)
   
@@ -256,7 +256,33 @@
 
   Now, you can just creat a pull request from the git hub page
   -------------------------------------------------------
- 
+
+  Syncing a fork
+  ==============
+  -- Sync a fork of a repository to keep it up-to-date with the upstream repository
+
+  -- Before you can sync your fork with an upstream repository, you must configure
+  a remote that points to the upstream repository in Git
+
+  -- Change the current working directory to your local project e.g., cd Project
+
+  Fetch the branches and their respective commits from the upstream repository
+  -- git fetch upstream
+
+  Check out your fork's local master branch
+  -- git checkout master
+
+  Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository,
+  without losing your local changes
+  -- git merge upstream/master
+
+  Push your local changes to your directory
+  -- git push origin 
+
+  Tags are not pushed by default, push them manually 
+  -- git push --tags origin
+  
+
   Usefull Weblinks for Git usage:
   http://rogerdudler.github.io/git-guide/ 
   https://github.com/github/hub
