@@ -217,6 +217,9 @@
 
   To view log 
   -- git log
+
+  To view log but one line details
+  -- git log --pretty=oneline
   
   To unstage the commit
   -- git reset HEAD <file>           
@@ -255,27 +258,48 @@
   -- git push origin
 
   Now, you can just creat a pull request from the git hub page
-  -------------------------------------------------------
+
 
   Syncing a fork
   ==============
-  -- Sync a fork of a repository to keep it up-to-date with the upstream repository
+  Sync a fork of a repository to keep it up-to-date with the upstream repository
 
-  -- Before you can sync your fork with an upstream repository, you must configure
-  a remote that points to the upstream repository in Git
+  -- git clone git@github.com:wajidalikhan/genproductions.git
+  -- cd genproductions/
 
-  -- Change the current working directory to your local project e.g., cd Project
+  List the current configured remote repository for your fork.
+  -- git remote -v
+     origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+     origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 
-  Fetch the branches and their respective commits from the upstream repository
+  Specify a new remote upstream repository that will be synced with the fork. e.g., 
+     git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+
+  -- git remote add upstream git@github.com:cms-sw/genproductions.git
+
+  Verify the new upstream repository you've specified for your fork.
+  -- git remote -v
+     origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+     origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+     upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+     upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+
+  Change the current working directory to your local project. Fetch the branches and their 
+  respective commits from the upstream repository. Commits to master will be stored in a local 
+  branch, upstream/master
   -- git fetch upstream
-
-  Check out your fork's local master branch
+  
+  Check out your fork's local master branch.
   -- git checkout master
-
-  Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository,
-  without losing your local changes
+  
+  Merge the changes from upstream/master into your local master branch. This brings 
+  your fork's master branch into sync with the upstream repository, without losing your local changes
   -- git merge upstream/master
-
+  
+  If your local branch didn't have any unique commits, Git will instead perform a "fast-forward" 
+  -- git status
+  -- git push
+  
   Push your local changes to your directory
   -- git push origin 
 
@@ -283,6 +307,7 @@
   -- git push --tags origin
   
 
+  ---------------------------------------------------- 
   Usefull Weblinks for Git usage:
   http://rogerdudler.github.io/git-guide/ 
   https://github.com/github/hub
