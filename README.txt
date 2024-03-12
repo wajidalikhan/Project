@@ -219,14 +219,26 @@
   In case,something goes wrong you can replace local changes using the e.g.,
   -- git checkout README.txt 
 
-  To create a branch 
+  To create a branch and checkout it out using '-b' option 
   -- git checkout -b new_branch
 
-  To switech to newly created branch
+  To switch to newly created branch
   -- git checkout new_branch
 
   To list the number of branches 
   -- git branch -r
+
+  To list current branches
+  -- git branch 
+
+  To push your local changes to your online repository.
+  -- git push REMOTE-NAME BRANCH-NAME
+
+  To rename a branch, you'd use the same git push command, but you would add one more argument: the name of the new branch. For example:
+  -- git push origin backportCMSSW14X:backportCMSSW14X
+   
+  To see the changes of particular has in git
+  -- git log -p -1 8504ea7b5ab9cc0b7ce383d907de1dcc6efd2092
 
   To push the changes in a specific branch
   -- git push --set-upstream origin new_branch  OR 
