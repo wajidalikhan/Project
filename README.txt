@@ -344,6 +344,8 @@
 
   ---------------------------------------------------- 
   Usefull Weblinks for Git usage:
+  http://cms-sw.github.io/tutorial-resolve-conflicts.html
+  https://cms-sw.github.io/faq.html#where-can-i-learn-about-git-github-in-general
   http://rogerdudler.github.io/git-guide/ 
   https://github.com/github/hub
   http://blog.trobrock.com/2011/11/17/git-hub-and-pull-requests-equals-awesome-daily-workflow.html
