@@ -11,7 +11,10 @@ You'll recieve an email after filling the above form and follow the instructions
 Enter CERN assigned username and set a passwword
 For 2-factor authentification, download the app Authentification+ (IOS) or Authenticator SafeAuth for android
 
- --For Grid Certificate, go to
+-- For EOS Space
+Login to https://cernbox.cern.ch and create a directory "/eos/users/w/wajid/testing/" and start writing to /eos
+
+--For Grid Certificate, go to
  
    https://ca.cern.ch/ca/
  Go to New Grid User Certificate
