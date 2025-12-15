@@ -1,52 +1,49 @@
   Please feel free to add more to it and please don't forget to creat a pull request.
-  --REQUESTING CMS ACCOUNT
+  -- REQUESTING CMS ACCOUNT
 
-Go to https://cms.cern.ch/iCMS/user/registration
+  Go to https://cms.cern.ch/iCMS/user/registration
 
-You'll recieve an email after filling the above form and follow the instructions.
+  You'll recieve an email after filling the above form and follow the instructions.
 
---CERN account sign in.
+  -- CERN account sign in.
+  https://account.cern.ch/account
+  Enter CERN assigned username and set a passwword
+  For 2-factor authentification, download the app Authentification+ (IOS) or Authenticator SafeAuth for android
 
-   https://account.cern.ch/account
-Enter CERN assigned username and set a passwword
-For 2-factor authentification, download the app Authentification+ (IOS) or Authenticator SafeAuth for android
+  -- For EOS Space
+  Login to https://cernbox.cern.ch and create a directory "/eos/users/w/wajid/testing/" and start writing to /eos
 
--- For EOS Space
-Login to https://cernbox.cern.ch and create a directory "/eos/users/w/wajid/testing/" and start writing to /eos
-
---For Grid Certificate, go to
+  -- For Grid Certificate, go to https://ca.cern.ch/ca/
+  Go to New Grid User Certificate
+  Set password
+  Download your certificate
  
-   https://ca.cern.ch/ca/
- Go to New Grid User Certificate
- Set password
- Download your certificate
+  -- Importing Grid User Certificate into Your Browser
  
- --Importing Grid User Certificate into Your Browser
+  go to browser settings > privacy and security > security > your certificates
+  import your certificate
  
- go to browser settings > privacy and security > security > your certificates
- import your certificate
+  Purpose: to authenticate yourself to Grid portals that use browser based certifacte authentication
  
- Purpose: to authenticate yourself to Grid portals that use browser based certifacte authentication
+  --Copy the following to terminal with your own username
  
- --Copy the following to terminal with your own username
- 
-ssh username@lxplus.cern.ch
-Enter password
-Enter 2nd factor
+  ssh username@lxplus.cern.ch
+  Enter password
+  Enter 2nd factor
 
   git clone git@github.com:wajidalikhan/Project.git
   -------------------------------------------------------
   How to use your certificate with grid-proxy-init.
   -- mkdir .globus && cd .globus
 
---TRANSFER GRID CERTIFICATE FROM YOUR PC TO CERN COMPUTING SERVER
+  -- TRANSFER GRID CERTIFICATE FROM YOUR PC TO CERN COMPUTING SERVER
 
-Open new terminal and paste the following
+  Open new terminal and paste the following
 
-scp myCertificate.p12 username@lxplus.cern.ch:/afs/cern.ch/user/first_alphabet_of_username/username/.globus
-Enter password
+  scp myCertificate.p12 username@lxplus.cern.ch:/afs/cern.ch/user/first_alphabet_of_username/username/.globus
+  Enter password
 
-Enter 2nd factor
+  Enter 2nd factor
 
   Copy the above PKCS#12 cert.p12 file to the computer where you will run grid-proxy-init.
   -- openssl pkcs12 -in cert.p12 -clcerts -nokeys -out $HOME/.globus/usercert.pem
